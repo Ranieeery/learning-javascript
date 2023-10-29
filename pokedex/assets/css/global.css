@@ -1,0 +1,40 @@
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+#loadMoreButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+#loadMoreButton:hover {
+    transform: scale(1.1);
+    background-color: #545da7;
+}
